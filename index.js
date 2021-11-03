@@ -1,19 +1,23 @@
-let cantor = true
+//створюємо змінні валют для обміну
 let nameUSA = "USA"
 let nameEUR = "EUR"
 let nameUAH = "UAH"
 let namePLN = "PLN"
 let nameGBP = "GBP"
+//створюємо змінні курсу кожної валюти
 let USA = 26.28
 let EUR = 30.3
 let UAH = 1
 let PLN = 6.5
 let GBP = 35.45
+
+let cantor = true
 let sumChangeFinal
 let account
 let changeToCurrency
 let continuation
 
+//запускаємо цикл обміну валюти
 while(cantor) {
     let currency = prompt("введіть валюту яку маєте USA,EUR,UAH,PLN,GBP або відмініть операцію")
     if (currency === null) {
